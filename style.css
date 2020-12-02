@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgba(21, 241, 212, 0.192);  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color: rgb(59, 9, 241);
     text-align: center;
 }
 
@@ -33,20 +33,41 @@ footer {
     padding-bottom: 10px;
 }
 
-
-/* specifieke stijlen */
-
 img.zweefLinks {
     float: left;
-    margin-right: 15px;
+   margin-left: 25px;
+   margin-right: 5px;
+   height:150px ;
+}
+img.zweefMidden {
+  height:150px ;
+}
+
+img.zweefRechts {
+  margin-right: 15px;
+  height:150px ;
 }
 
 .smalltext {
     font-size: 0.7em;
 }
 
+.vogelTekst {
+  float:left;
+  text-align: left;
+  height:100px ;
+  width: 200px;
+  overflow:auto;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+hr {
+  clear:both;
+}
+
 a {
-    color: skyblue;
+    color: rgb(10, 53, 243);
     text-decoration: none;
 }
 
@@ -60,7 +81,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #06dffc;
     overflow: hidden;
 }
 
@@ -70,20 +91,24 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: rgba(255,255,255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #08dbf7;
 }
 
 nav li a.active {
     background-color: skyblue;
 }
 
+.images {
+  background-color: skyblue;
+}
 
-
-
+.Anatomie {
+  height:150px ;
+}
